@@ -1,3 +1,4 @@
+//read file directly
 const fileBlob = await fetch("/leet.ods").then(r => r.blob());
 
 const fileReader = new FileReader();
